@@ -1,0 +1,7 @@
+<svg class="check-icon" width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 16.4286V9.5C18 5.72876 18 3.84315 16.8284 2.67157C15.6569 1.5 13.7712 1.5 10 1.5H9C5.22876 1.5 3.34315 1.5 2.17157 2.67157C1 3.84315 1 5.72876 1 9.5V19" stroke="#FCFAEE" stroke-width="2" stroke-linecap="round"/>
+<path d="M18 16.5H3.5C2.11929 16.5 1 17.6193 1 19C1 20.3807 2.11929 21.5 3.5 21.5H18" stroke="#FCFAEE" stroke-width="2" stroke-linecap="round"/>
+<path d="M18 21.5C16.6193 21.5 15.5 20.3807 15.5 19C15.5 17.6193 16.6193 16.5 18 16.5" stroke="#FCFAEE" stroke-width="2" stroke-linecap="round"/>
+<path d="M12.5 6.5H6.5" stroke="#FCFAEE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.5 10.5H6.5" stroke="#FCFAEE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

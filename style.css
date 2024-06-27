@@ -1,0 +1,1111 @@
+/* General styling */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsla(51, 70%, 96%, 1);
+    position: relative;
+    padding: 0 24px 0 24px;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+.gradient-circle-a {
+    position: absolute;
+    z-index: -1;
+}
+.gradient-circle-b {
+    position: absolute;
+    z-index: -1;
+}
+
+/* ICONS */
+
+.check-icon {
+    display: inline-block;
+    background-color: hsla(295, 94%, 20%, 1);
+    border-radius: 50%;
+}
+.check-box {
+    fill: hsla(295, 94%, 20%, 1);
+}
+
+/* Hero section */
+
+nav {
+    padding: 24px;
+    width: 100%;
+    z-index: 100;
+    background-color: hsla(51, 70%, 96%, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    text-align: left;
+}
+.nav-item-1 {
+    color:hsla(0, 0%, 0%, 1);
+    margin-left: 24px;
+}
+.nav-item-2 {
+    color:hsla(295, 94%, 20%, 1);
+}
+
+.heading-text {
+    font-weight: 600;
+    text-align: left;
+    color: hsla(215, 99%, 28%, 1);
+
+}
+.description-text {
+    font-weight: 600;
+    text-align: left;
+    color: hsl(0, 0%, 0%);
+}
+.set {
+    font-weight: 600;
+    text-align: left;
+    color: hsla(295, 94%, 20%, 1);
+}
+.intro-text {
+    font-weight: 400;
+    text-align: left;
+}
+
+/* WHO-WE-ARE */
+
+.welcome-message {
+    color: hsla(215, 99%, 28%, 1);
+    font-weight: 700;
+    text-align: center;
+}
+.point-item {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 5px 14px 0px hsla(230, 73%, 12%, 0.04);
+    margin-bottom: 36px;
+    border-radius: 12px;
+    padding: 32px;
+
+}
+/* WHAT-IS-INSIDE */
+.section-header {
+    color:hsla(295, 94%, 20%, 1);
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.section-overview {
+    font-weight: 700;
+    text-align: left;
+    color: hsla(215, 99%, 28%, 1);
+}
+.section-text {
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.1em;
+}
+.info-block {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: start;
+}
+.check-box {
+    align-self: start;
+}
+.info-heading {
+    color: hsla(215, 99%, 28%, 1);
+}
+.info-box {
+    align-self: start;
+}
+.section-img {
+    position: relative;
+}
+/* A BIRD'S EYE GLIMPSE */
+.glimpse {
+    margin-top: 62px;
+}
+.heading-glimpse {
+    font-weight: 700;
+    text-align: center;
+    color: hsla(215, 99%, 28%, 1);
+}
+.flip-book {
+    margin-bottom: 48px;
+}
+.cta-container-b {
+   margin: 10% 15%;
+   width: 70%;
+}
+
+.section-review {
+    margin-top: 62px;
+}
+
+/* REVIEWS */
+.heading-reviews {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: hsla(295, 94%, 20%, 1);
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.sub-heading-reviews {
+    font-weight: 700;
+    text-align: center;
+    color: hsla(215, 99%, 28%, 1);
+}
+.reviews-grid {
+    margin-top: 52px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+.review-element {
+    border-radius: 20px;
+    padding: 24px;
+    border: 1px solid hsla(233, 30%, 95%, 1);
+    background-color:hsla(233, 30%, 95%, 1) ;
+}
+.review-topic {
+    font-weight: 700;
+    text-align: left;
+    color: hsla(295, 94%, 20%, 1);
+    margin-bottom: 16px;
+}
+.review-quote {
+    font-weight: 400;
+    text-align: left;
+    color: hsla(245, 14%, 49%, 1);
+}
+.reviewer-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-right: 15px;
+    justify-content:space-evenly;
+}
+.reviewer-img {
+    display: inline-block;
+    align-self: start;
+    background-color: hsla(245, 14%, 49%, 1);
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+}
+.reviewer-name {
+    font-weight: 700;
+    text-align: left;
+    color: hsla(295, 94%, 20%, 1);
+}
+.reviewer-portfolio {
+    color: hsla(245, 14%, 49%, 1);
+}
+
+/* SECTION-ABOUT */
+.section-about {
+    margin-top: 76px;
+}
+.heading-about {
+    font-weight: 700;
+    text-align: center;
+    color: hsla(215, 99%, 28%, 1);
+}
+.group {
+    padding: 24px 18px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    text-align: center;
+}
+.group-picture {
+    width: 90%;
+    height: auto;
+}
+.sub-heading-about {
+    text-align: center;
+    color: hsla(295, 94%, 20%, 1);
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 32px;
+}
+.text-about {
+    font-weight: 500;
+    text-align: center;
+    color: hsla(0, 0%, 0%, 1);
+
+}
+
+/* SECTION-GALLERY */
+
+.section-gallery {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 32px;
+    row-gap: 32px;
+}
+.gallery-container-a {
+    display: inline-block;
+    background-color: hsl(330, 100%, 71%);
+    width: 232.34px;
+    height: 574.54px;
+    border-radius: 99px;
+    align-self: center;
+}
+.gallery-container-b {
+    display: inline-block;
+    background-color: hsl(330, 100%, 50%);
+    width: 232.34px;
+    height: 640.71px;
+    border-radius: 99px;
+    align-self: center;
+}
+.gallery-container-c {
+    display: inline-block;
+    background-color: hsla(215, 99%, 28%, 1);
+    width: 232.34px;
+    height: 574.54px;
+    border-radius: 99px;
+    align-self: center;
+}
+.gallery-container-d {
+    display: inline-block;
+    background-color: hsl(50, 100%, 50%);
+    width: 232.34px;
+    height: 640.71px;
+    border-radius: 99px;
+    align-self: center;
+}
+
+/* SECTION-FOOTER */
+footer {
+    margin-top: 30%;
+    text-align: center;
+}
+.footer-yearbook {
+    display: inline-block;
+    margin-bottom: 32px;
+    width: 65px;
+    height: 90px;
+    border-radius: 5px;
+}
+.copyright {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    text-align: center;
+    color: hsla(245, 14%, 49%, 1);
+}
+
+/* ICONS */
+.icons {
+    justify-self: center;
+    align-self: center;
+}
+
+#download span, #cta span {
+    justify-self: center;
+    align-self: center;
+}
+
+/* CTA's */
+a {
+    text-decoration: none;
+}
+#cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    border: solid 1px hsla(295, 94%, 20%, 1);
+    border-radius: 100px;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    background-color: hsla(295, 94%, 20%, 1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#download {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    border: solid 1px hsla(295, 94%, 20%, 1);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color:hsla(295, 94%, 20%, 1);
+}
+#download:link, #download:active {
+    background-color:hsl(0, 0%, 100%);
+}
+#download:hover, #download:active {
+    transform: scale(1.1);
+}
+.cta-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 32px;
+    gap: 32px;
+    margin-top: 36px;
+}
+#cta:link, #cta:visited {
+    color:hsl(0, 0%, 100%);
+    background-color:hsla(295, 94%, 20%, 1);
+}
+#cta:hover, #cta:active {
+    background-color:hsl(0, 0%, 100%);
+    color:hsla(295, 94%, 20%, 1);
+    transform: scale(1.1);
+}
+.about-container {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 36px;
+}
+.show-yearbook:hover, .show-yearbook:active {
+    color: hsla(295, 94%, 20%, 1);
+    background-color: hsla(51, 70%, 96%, 1);
+    transform: scale(1.1);
+} 
+@media only screen and (max-width:375px) {
+    
+}
+@media (min-width:375px) and (max-width:750px) {
+    .nav-item-1, .nav-item-2 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    button {
+        width: 268px;
+        height: 53px;
+        font-size: 18px;
+    }
+    .section-hero {
+        padding-top: 52px;
+    }
+    .heading-text {
+        font-size: 45px;
+        line-height: 75px;
+    }
+    .description-text {
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .set {
+        font-size: 45px;
+        line-height: 75px;
+    }
+    .intro-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .yearbook-img {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin:15% 10%;
+        text-align: center;
+    }
+    .who-we-are {
+        margin-top: 62px;
+    }
+    .welcome-message {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .point-info {
+        display: flex;
+        flex-direction: column;
+        column-gap: 32px;
+        margin-top: 48px;
+    }
+    .HGA-logo {
+        order: -7;
+        margin:7% 33% 12% 33%;
+        text-align: center;
+    }
+    .logo {
+        width: 150%;
+        height: 100%;
+    }
+    .topic {
+        font-family: 'DM sans';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+        color: hsla(248, 66%, 17%, 1);
+    }
+    .content {
+        font-family: 'DM Sans';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        color: hsla(245, 14%, 49%, 1);
+    }
+    .section-overview {
+        font-size: 40px;
+        line-height: 62px;
+    }
+    .section-text {
+        font-size: 18px;
+        line-height: 30px;
+        color: hsla(245, 14%, 49%, 1);
+    }
+    .what-is-inside {
+        margin-top: 62px;
+    }
+    .yearbook {
+        display: block;
+        margin: 10% 15%;
+        width: 50%;
+        height: auto;
+        transform: rotate(8.5deg);
+        border-radius: 15px;
+        box-shadow: 0px 15px 30px 0px hsla(295, 94%, 20%, 1);
+    }
+    .book-link {
+        position: absolute;
+        text-decoration: none;
+        cursor: pointer;
+        top: 85%;
+        left: 5%;
+    }
+    .show-yearbook {
+        width: 50%;
+        padding: 24px;
+        border: solid 1px hsla(295, 94%, 20%, 1);
+        border-radius: 10px;
+        font-size: 52px;
+        line-height: 48px;
+        font-weight: 700;
+        text-align: center;
+        background-color: hsla(295, 94%, 20%, 1);
+        color: hsla(51, 70%, 96%, 1);
+        border: solid 1px hsla(295, 94%, 20%, 1);
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .section-glimpse {
+        margin-top: 128px;
+    }
+    .heading-glimpse {
+        font-size: 50px;
+        line-height: 62px;
+        margin:0 48px 48px 48px;
+    }
+    .flip-book {
+        margin-bottom: 48px;
+    }
+    .cta-container-b {
+        margin:10% 15%;
+        width: 70%;
+    }
+    .sub-heading-reviews {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .heading-reviews {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .review-topic {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .review-quote {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .reviewer-name {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .heading-about {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .group-picture {
+        width: 991px;
+        height: 574.5px;
+        border-radius: 20px;
+    }
+    .sub-heading-about {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .text-about {
+        font-size: 35px;
+        line-height: 52.5px;
+    }
+    .copyright {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media (min-width:750px) and (max-width:1280px) {
+    .nav-item-1, .nav-item-2 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    button {
+        width: 268px;
+        height: 53px;
+        font-size: 18px;
+    }
+    .section-hero {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        justify-content: space-between;
+        padding-top: 52px;
+    }
+    .overview {
+        align-items: start;
+    }
+    .heading-text {
+        font-size: 45px;
+        line-height: 75px;
+    }
+    .description-text {
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .set {
+        font-size: 45px;
+        line-height: 75px;
+    }
+    .intro-text {
+        font-size: 18px;
+        line-height: 30px;
+
+    }
+    .yearbook-img {
+        align-items: start;
+        width: 474px;
+        height: 557px;
+    }
+    .who-we-are {
+        margin-top: 62px;
+    }
+    .welcome-message {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .point-info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 58px;
+        row-gap: 52px;
+        column-gap: 52px;
+    }
+    .HGA-logo {
+        transform: scale(2.2);
+        align-self: center;
+        justify-self: center;
+    }
+    .topic {
+        font-family: 'DM sans';
+        width: 252.82px;
+        height: 48.16px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+        color: hsla(248, 66%, 17%, 1);
+    }
+    .content {
+        font-family: 'DM Sans';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        color: hsla(245, 14%, 49%, 1);
+    }
+    .section-overview {
+        font-size: 40px;
+        line-height: 62px;
+    }
+    .section-text {
+        font-size: 18px;
+        line-height: 30px;
+        color: hsla(245, 14%, 49%, 1);
+    }
+    .what-is-inside {
+        margin-top: 62px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 64px;
+    }
+    .yearbook {
+        position: absolute;
+        top:15%;
+        left: 17%;
+        /* width: 70%; */
+        width: auto;
+        /* height: 70%; */
+        height: auto;
+        max-height: 500px;
+        transform: rotate(8.5deg);
+        border-radius: 15px;
+        box-shadow: 0px 15px 30px 0px hsla(295, 94%, 20%, 1);
+        z-index: -2;
+    }
+    .book-link {
+        position: absolute;
+        text-decoration: none;
+        cursor: pointer;
+        top: 60%;
+        left: 5%;
+    }
+    .show-yearbook {
+        width: 580px;
+        height: auto;
+        padding: 30px;
+        border: solid 1px hsla(295, 94%, 20%, 1);
+        border-radius: 10px;
+        font-size: 52px;
+        line-height: 48px;
+        font-weight: 700;
+        text-align: center;
+        background-color: hsla(295, 94%, 20%, 1);
+        color: hsla(51, 70%, 96%, 1);
+        border: solid 1px hsla(295, 94%, 20%, 1);
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    
+    .heading-glimpse {
+        font-size: 50px;
+        line-height: 62px;
+        margin:0 48px 48px 48px;
+    }
+    .flip-book {
+        margin-bottom: 48px;
+    }
+    .cta-container-b {
+        margin-left: 33%;
+    }
+    .sub-heading-reviews {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .heading-reviews {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .review-topic {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .review-quote {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .reviewer-name {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .heading-about {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .group-picture {
+        width: 991px;
+        height: 574.5px;
+        border-radius: 20px;
+    }
+    .sub-heading-about {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .text-about {
+        font-size: 35px;
+        line-height: 52.5px;
+    }
+    .copyright {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media (min-width:1280px)  and (max-width:1440px){
+    .nav-item-1, .nav-item-2 {
+        font-size: 32px;
+        line-height: 42px;
+
+    }
+    button {
+        width: 280px;
+        height: 60px;
+        padding: auto;
+        font-size: 22px;
+    }
+    .section-hero {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        justify-content: space-between;
+        padding-top: 64px;
+    }
+    .overview {
+        align-items: start;
+    }
+    .heading-text {
+        font-size: 52px;
+        line-height: 77px;
+    }
+    .description-text {
+        font-size: 36px;
+        line-height: 64px;
+    }
+    .set {
+        font-size: 52px;
+        line-height: 77px;
+    }
+    .intro-text {
+        font-size: 24px;
+        line-height: 32px;
+
+    }
+    .yearbook-img {
+        align-items: start;
+        width: 480px;
+        height: 560px;
+    }
+    .who-we-are {
+        margin-top: 64px;
+    }
+    .welcome-message {
+        font-size: 52px;
+        line-height: 64px;
+    }
+    .point-info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 60px;
+        row-gap: 54px;
+        column-gap: 54px;
+    } 
+    .HGA-logo {
+        transform: scale(2.2);
+        align-self: center;
+        justify-self: center;
+    }
+    .topic {
+        font-family: 'DM sans';
+        width: 255px;
+        height: 48.16px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+        color: hsla(248, 66%, 17%, 1);
+    }
+    .content {
+        font-family: 'DM Sans';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: center;
+        color: hsla(245, 14%, 49%, 1);
+    }
+    .section-overview {
+        font-size: 42px;
+        line-height: 64px;
+    }
+    .section-text {
+        font-size: 20px;
+        line-height: 32px;
+        color: hsla(245, 14%, 49%, 1);
+    }
+    .what-is-inside {
+        margin-top: 64px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 68px;
+    }
+    .yearbook {
+        position: absolute;
+        top:15%;
+        left: 17%;
+        /* width: 70%; */
+        width: auto;
+        max-width: 320px;
+        /* height: 70%; */
+        height: auto;
+        max-height: 500px;
+        transform: rotate(8.5deg);
+        border-radius: 15px;
+        box-shadow: 0px 15px 30px 0px hsla(295, 94%, 20%, 1);
+        z-index: -2;
+    }
+    .book-link {
+        position: absolute;
+        text-decoration: none;
+        cursor: pointer;
+        top: 60%;
+        left: 5%;
+    }
+    .show-yearbook {
+        width: 580px;
+        height: auto;
+        padding: 30px;
+        border: solid 1px hsla(295, 94%, 20%, 1);
+        border-radius: 10px;
+        font-size: 52px;
+        line-height: 48px;
+        font-weight: 700;
+        text-align: center;
+        background-color: hsla(295, 94%, 20%, 1);
+        color: hsla(51, 70%, 96%, 1);
+        border: solid 1px hsla(295, 94%, 20%, 1);
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    
+    .heading-glimpse {
+        font-size: 52px;
+        line-height: 64px;
+        margin:0 50px 50px 50px;
+    }
+    .flip-book {
+        margin-bottom: 52px;
+    }
+    .cta-container-b {
+        margin-left: 33%;
+    }
+    .sub-heading-reviews {
+        font-size: 52px;
+        line-height: 64px;
+    }
+    .heading-reviews {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .review-topic {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .review-quote {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .reviewer-name {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .heading-about {
+        font-size: 55px;
+        line-height: 64px;
+    }
+    .group-picture {
+        width: 995px;
+        height: 576px;
+        border-radius: 22px;
+    }
+    .sub-heading-about {
+        font-size: 55px;
+        line-height: 64px;
+    }
+    .text-about {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .copyright {
+        font-size: 20px;
+        line-height: 34px;
+    }
+}
+@media (min-width: 1440px) {
+    .nav-item-1, .nav-item-2 {
+        font-size: 32px;
+        line-height: 42px;
+
+    }
+    button {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        font-size: 26px;
+    }
+    .section-hero {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        justify-content: space-between;
+        padding-top: 64px;
+    }
+    .overview {
+        align-items: start;
+    }
+    .heading-text {
+        font-size: 64px;
+        line-height: 80px;
+    }
+    .description-text {
+        font-size: 40px;
+        line-height: 70px;
+    }
+    .set {
+        font-size: 62px;
+        line-height: 80px;
+    }
+    .intro-text {
+        font-size: 28px;
+        line-height: 36px;
+
+    }
+    .yearbook-img {
+        align-items: start;
+        width: 500px;
+        height: 590px;
+    }
+    .who-we-are {
+        margin-top: 70px;
+    }
+    .welcome-message {
+        font-size: 58px;
+        line-height: 70px;
+    }
+    .point-info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 64px;
+        row-gap: 60px;
+        column-gap: 60px;
+    }
+    .HGA-logo {
+        transform: scale(2.2);
+        align-self: center;
+        justify-self: center;
+    }
+    .topic {
+        font-family: 'DM sans';
+        width: 280px;
+        height: 60px;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: hsla(248, 66%, 17%, 1);
+    }
+    .content {
+        font-family: 'DM Sans';
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: center;
+        color: hsla(245, 14%, 49%, 1);
+    }
+    .section-overview {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .section-text {
+        font-size: 26px;
+        line-height: 40px;
+        color: hsla(245, 14%, 49%, 1);
+    }
+    .what-is-inside {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px;
+    }
+    .yearbook {
+        position: absolute;
+        top:15%;
+        left: 17%;
+        /* width: 70%; */
+        width: auto;
+        max-width: 320px;
+        /* height: 70%; */
+        height: auto;
+        max-height: 500px;
+        transform: rotate(8.5deg);
+        border-radius: 15px;
+        box-shadow: 0px 15px 30px 0px hsla(295, 94%, 20%, 1);
+        z-index: -2;
+    }
+    .book-link {
+        position: absolute;
+        text-decoration: none;
+        cursor: pointer;
+        top: 60%;
+        left: 5%;
+    }
+    .show-yearbook {
+        width: 580px;
+        height: auto;
+        padding: 30px;
+        border: solid 1px hsla(295, 94%, 20%, 1);
+        border-radius: 10px;
+        font-size: 52px;
+        line-height: 48px;
+        font-weight: 700;
+        text-align: center;
+        background-color: hsla(295, 94%, 20%, 1);
+        color: hsla(51, 70%, 96%, 1);
+        border: solid 1px hsla(295, 94%, 20%, 1);
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .section-img {
+        position: relative;
+        align-self: center;
+    }
+    .heading-glimpse {
+        font-size: 52px;
+        line-height: 64px;
+        margin:0 50px 50px 50px;
+    }
+    .flip-book {
+        margin-bottom: 52px;
+    }
+    .cta-container-b {
+        margin-left: 33%;
+    }
+    .sub-heading-reviews {
+        font-size: 52px;
+        line-height: 64px;
+    }
+    .heading-reviews {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .review-topic {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .review-quote {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .reviewer-name {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .heading-about {
+        font-size: 55px;
+        line-height: 64px;
+    }
+    .group-picture {
+        border-radius: 22px;
+    }
+    .sub-heading-about {
+        font-size: 65px;
+        line-height: 64px;
+    }
+    .text-about {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .copyright {
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
